@@ -1,0 +1,7 @@
+
+1. Logical Operator
+  &&   &&  = Both Condition Should be true than it goes inside if block
+  &&   ||  = one of the Condition Should be true than it goes inside if block
+  ||   ||  =  any Condition Should be true than it goes inside if block
+  
+  
