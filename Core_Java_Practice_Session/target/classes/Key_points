@@ -1,7 +1,15 @@
 
 1. Logical Operator
   &&   &&  = Both Condition Should be true than it goes inside if block
-  &&   ||  = one Condition Should be true than it goes inside if block
+  &&   ||  = one of the Condition Should be true than it goes inside if block
   ||   ||  =  any Condition Should be true than it goes inside if block
+  
+  
+  06/06/2026
+  ---------
+ 1. Multiple  Inheritance not allowed in classes level because of Diamond problem may occur.
+ 
+ 
+ 
   
   
