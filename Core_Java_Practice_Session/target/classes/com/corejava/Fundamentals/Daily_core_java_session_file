@@ -7,5 +7,16 @@
 4)Exception Handling[try,catch,finally,throw,throws]
 5)Collection[list,Set,Map,Queue]
 6)DSA[Coding all logical and mathematical]
+| Feature          | Abstract Class                             | Interface                                        |
+| ---------------- | ------------------------------------------ | ------------------------------------------------ |
+| Keyword          | `abstract class`                           | `interface`                                      |
+| Object Creation  | ❌ Cannot create object                     | ❌ Cannot create object                           |
+| Constructor      | ✅ Allowed                                  | ❌ Not Allowed                                    |
+| Variables        | Instance variables allowed                 | By default `public static final`                 |
+| Methods          | Abstract + Concrete methods                | Abstract methods, `default` and `static` methods |
+| Inheritance      | A class can extend only one abstract class | A class can implement multiple interfaces        |
+| Access Modifiers | Any access modifier                        | Methods are public by default                    |
+| Use Case         | Common behavior + partial implementation   | Contract / capability                            |
+
 
 
