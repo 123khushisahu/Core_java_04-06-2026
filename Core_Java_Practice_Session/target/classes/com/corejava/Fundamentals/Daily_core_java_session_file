@@ -7,7 +7,7 @@
 4)Exception Handling[try,catch,finally,throw,throws]
 5)Collection[list,Set,Map,Queue]
 6)DSA[Coding all logical and mathematical]
-| Feature          | Abstract Class                             | Interface                                        |
+| Feature          | Abstract Class                             | Interface                                          |
 | ---------------- | ------------------------------------------ | ------------------------------------------------ |
 | Keyword          | `abstract class`                           | `interface`                                      |
 | Object Creation  | ❌ Cannot create object                     | ❌ Cannot create object                           |

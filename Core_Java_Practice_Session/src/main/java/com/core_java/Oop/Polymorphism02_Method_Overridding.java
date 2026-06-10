@@ -19,7 +19,7 @@ class Pet extends Animal{
 
 
 
-public class Polymorphism02_Method_Overridding extends Animal  {
+public class Polymorphism02_Method_Overridding extends Pet  {
 
 	public static void main(String[] args) {
 		

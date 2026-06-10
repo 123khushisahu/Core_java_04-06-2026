@@ -5,7 +5,7 @@ public  class Test_Abstract_impl extends Test_Abstract {
 	@Override
 	void m1() {
 		
-		
+		System.out.println("This is the abstract method!!!!");
 	}
 	
 	

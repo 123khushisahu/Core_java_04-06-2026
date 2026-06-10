@@ -113,12 +113,12 @@ public class Encapsulation_example {
 	}
 
 
-	private int getEmpId() {
+	protected int getEmpId() {
 		return empId;
 	}
 
 
-	private void setEmpId(int empId) {
+	protected void setEmpId(int empId) {
 		this.empId = empId;
 	}
 
