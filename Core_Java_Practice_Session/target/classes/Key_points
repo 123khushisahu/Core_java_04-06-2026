@@ -11,5 +11,18 @@
  
  
  
-  
+ 
+ 
+ 2. What is Casting in Java?
+
+  Casting ka matlab hota hai:
+
+  Ek data type ko doosre compatible data type me convert karna.
+
+  Java me casting do jagah use hoti hai:
+
+  Primitive Type Casting (int, double, char, etc.)
+  Object Casting (classes/interfaces)- Upcasting ,Downcasting
+ 
+ 
   

@@ -55,35 +55,8 @@ public class Demo1 {
     
     else {
     	System.out.println("this is the else block false area");
-    }
-    
-    
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+    	}	
 	}
-	
-	
-
-	
-	
-	
-
-
-
-	
-
 }
 
 
