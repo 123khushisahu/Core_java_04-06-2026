@@ -1,8 +1,16 @@
+
 package com.core.Statements;
 
 import java.time.LocalDate;
+/*
+Java statements are mainly of 3 types:
 
-public class Statements {
+Selection Statements – if, if-else, else-if, switch
+Iteration Statements – for, while, do-while, for-each
+Jump Statements – break, continue, return
+*/
+
+public class Selection_Statements {
 
 	public static void main(String[] args) {
 		   
@@ -71,7 +79,7 @@ public class Statements {
 	 }
 	        */
 	     
-	     int day=0;
+	     int day=1;
 	     
 	     
 	     switch (day) {
