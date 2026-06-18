@@ -16,21 +16,23 @@ public class Iteration_Statement {
 		 for-each loop
 		*/
 		
-//		for(int i=10;i>=0;i--)	{
-//			System.out.println(i);
-//		}
-//		
-//		for (int i = 1;i<=20; i++) {
-//		    if (i % 2 == 0) {
-//		        System.out.println(i);
-//		    }
+		for(int i=10;i>=0;i--)	{
+			System.out.println(i);
+	}
+		
+		for (int i = 1;i<=20; i++) {
+		    if (i % 2 == 0) {
+	        System.out.println(i);
+		    }
 //		    for(int j=1;j<=50;j++) {
 //		    	if(j%3==0) {
 //		    		System.out.println(j);
 //		    	}
-//		    }for(int i=5;i>=1;i--) {
-//		    	System.out.println(i);
 //		    }
+		   
+		    for(int x=1;x<=5;++x) {
+		    	System.out.println(x);
+	   
 //		for(int i=2;i<=20;i++) {
 //			if(i%2==0) {
 //			System.out.println(i);
@@ -43,11 +45,11 @@ public class Iteration_Statement {
 //				}
 //				
 //		}
-			for(int z=1;z<=100;z++) {
-				sum=sum+z;
-				System.out.println("Addition is :"+sum);
-
-			}
+//			for(int z=1;z<=100;z++) {
+//				sum=sum+z;
+//				System.out.println("Addition is :"+sum);
+//
+//			}
 	
 		    /*while loop
 		    int i=1;
@@ -86,7 +88,8 @@ public class Iteration_Statement {
 	}
 	
 			
-}
+	}
+	}}
 
 
 

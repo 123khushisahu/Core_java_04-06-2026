@@ -8,7 +8,7 @@ package com.core_java.Oop;
 	  
 	  
 	  //in interface can create only 3 method
-	  //1)abstract method .2)default method. 3)static method
+	  //1)abstract method .2)default method(with default keyword) 3)static method
 	 
 
 }
