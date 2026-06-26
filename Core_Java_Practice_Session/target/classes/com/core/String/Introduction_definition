@@ -1,0 +1,75 @@
+=========================================================
+        StringBuffer vs StringBuilder in Java
+=========================================================
+
+Feature                 : StringBuffer
+---------------------------------------------------------
+Introduced In           : Java 1.0
+Thread Safety           : Thread-safe
+Performance             : Slower due to synchronization
+Synchronization         : Methods are synchronized
+Memory Efficiency       : Slightly less efficient
+Execution Speed         : Lower execution speed
+Suitable For            : Multi-threaded environments
+Data Safety             : Provides data consistency between threads
+Usage                   : Used when security and synchronization are required
+Preferred In            : Banking, server-side applications
+Method Behavior         : Safe for shared objects
+Modification Operations : append(), insert(), delete(), reverse()
+Object Creation         : Changes existing object without creating a new one
+Efficiency in Loops     : Less efficient in loops
+Common Methods          : append(), insert(), delete(), reverse()
+
+=========================================================
+
+Feature                 : StringBuilder
+---------------------------------------------------------
+Introduced In           : Java 1.5
+Thread Safety           : Not thread-safe
+Performance             : Faster because no synchronization
+Synchronization         : Methods are not synchronized
+Memory Efficiency       : More memory efficient
+Execution Speed         : Higher execution speed
+Suitable For            : Single-threaded environments
+Data Safety             : No protection for concurrent access
+Usage                   : Used when high performance is required
+Preferred In            : Competitive coding, desktop applications
+Method Behavior         : Best for local objects
+Modification Operations : append(), insert(), delete(), reverse()
+Object Creation         : Changes existing object without creating a new one
+Efficiency in Loops     : More efficient in loops
+Common Methods          : append(), insert(), delete(), reverse()
+
+=========================================================
+                Quick Revision
+=========================================================
+
+StringBuffer
+-------------
+✔ Java 1.0
+✔ Thread-safe
+✔ Synchronized
+✔ Slower
+✔ Multi-threaded
+✔ Safe for shared objects
+
+StringBuilder
+--------------
+✔ Java 1.5
+✔ Not Thread-safe
+✔ Not Synchronized
+✔ Faster
+✔ Single-threaded
+✔ Best Performance
+
+=========================================================
+Interview One-Liner
+=========================================================
+
+StringBuffer:
+"Use StringBuffer when multiple threads access the same object because it is synchronized and thread-safe."
+
+StringBuilder:
+"Use StringBuilder when only one thread accesses the object because it is faster and not synchronized."
+
+=========================================================

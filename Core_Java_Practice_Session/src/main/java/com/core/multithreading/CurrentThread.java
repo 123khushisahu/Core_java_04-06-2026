@@ -13,15 +13,15 @@ public class CurrentThread {
 		// System.out.println("after added one element size become :  " +array.size());
 		
 		
-		Thread.startVirtualThread(()->System.out.println("this is the virtual"));
-		Thread.currentThread().setName("this is the khushi ");
-		System.out.println(Thread.currentThread().getId() 
-				+ ' ' + Thread.currentThread().getName());
+		MyThreadd.startVirtualThread(()->System.out.println("this is the virtual"));
+		MyThreadd.currentThread().setName("this is the khushi ");
+		System.out.println(MyThreadd.currentThread().getId() 
+				+ ' ' + MyThreadd.currentThread().getName());
 		
-		Thread.currentThread().setName("Vijay bahadur");
+		MyThreadd.currentThread().setName("Vijay bahadur");
 		
 		for(int a=20; a>=15; a--) {
-			System.out.println(Thread.currentThread().getName() + "       " + a);
+			System.out.println(MyThreadd.currentThread().getName() + "       " + a);
 		
 		
 	}

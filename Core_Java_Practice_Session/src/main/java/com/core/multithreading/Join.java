@@ -1,6 +1,6 @@
 package com.core.multithreading;
 
-public class Join extends Thread {
+public class Join extends MyThreadd {
 	//c m
 	public void m1()  {
 		int i;
@@ -10,7 +10,7 @@ public class Join extends Thread {
 		
 	}   // methods close 
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args1)  {
 		
 		//Interview Questions
 		//Q1. What is join()?
@@ -30,7 +30,7 @@ public class Join extends Thread {
 	}
 	catch (Exception e) {
 		e.printStackTrace();
-		throw  new Exception("this is custom exeption");
+		//throw  new Exception("this is custom exeption");
 	}
 		
 		

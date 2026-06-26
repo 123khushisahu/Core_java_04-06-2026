@@ -66,7 +66,7 @@ public class Intro_And_Basic {
 		System.out.println("TASK-3");
 		System.out.println("TASK-4");
 		
-		Thread t=new Thread();
+		MyThreadd t=new MyThreadd();
 		t.start();
 		t.run();
 		t.sleep(5000);

@@ -1,6 +1,6 @@
 package com.core.multithreading;
 
-class MyThread extends Thread{
+class MyThread extends MyThreadd{
 	
 	
 	// thread methods
@@ -20,7 +20,7 @@ public class Demo {
 	
 	public static void main(String[] args) {
 		
-		MyThread mythread=new MyThread();
+		MyThreadd mythread=new MyThreadd();
 		mythread.start();
 		
 		//mythread.m1();

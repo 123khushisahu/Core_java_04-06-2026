@@ -3,11 +3,15 @@
 
 1)OOPS [inheritence,polymorphism,encapsulation,abstraction ,class,Interface]
 2)Java Fundamental [Keywords,datatypes,Statement,Loop,Operator]
-3)Multi threading [thread,functional Interface,]
+3)Multi threading [thread]
 4)Exception Handling[try,catch,finally,throw,throws]
-5)Collection[list,Set,Map,Queue]
-6)String(StingBuffer,StingBuilder)
-6)DSA[Coding all logical and mathematical]
+5)String(StingBuffer,StingBuilder)
+6)Collection[list,Set,Map,Queue]
+7)DSA[Coding all logical and mathematical]
+8) JAVA 8,17,21 FEATURES.
+9) Memory Management.
+
+
 | Feature          | Abstract Class                             | Interface                                          |
 | ---------------- | ------------------------------------------ | ------------------------------------------------ |
 | Keyword          | `abstract class`                           | `interface`                                      |

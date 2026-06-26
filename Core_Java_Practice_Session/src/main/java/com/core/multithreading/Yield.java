@@ -1,13 +1,13 @@
 package com.core.multithreading;
 
-class ThreadDummy extends Thread {
+class ThreadDummy extends MyThreadd {
 	
 public String m1() {
 	
 	for(int i=1; i<=5;i++) {
-		System.out.println("this is the current thread : " +Thread.currentThread());
+		System.out.println("this is the current thread : " +MyThreadd.currentThread());
 		
-		Thread.yield();
+		MyThreadd.yield();
 	}
 	
 	return " My India is Great";
@@ -43,7 +43,7 @@ public class Yield {
 		
 		
 		//syntax:
-        Thread.yield();
+        MyThreadd.yield();
         
         
         //yield() ek static method hai.
