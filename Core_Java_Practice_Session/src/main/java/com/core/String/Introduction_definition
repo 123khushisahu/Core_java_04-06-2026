@@ -1,3 +1,4 @@
+
 =========================================================
         StringBuffer vs StringBuilder in Java
 =========================================================
@@ -14,7 +15,8 @@ Suitable For            : Multi-threaded environments
 Data Safety             : Provides data consistency between threads
 Usage                   : Used when security and synchronization are required
 Preferred In            : Banking, server-side applications
-Method Behavior         : Safe for shared objects
+Method Behavior         : Safe for s
+hared objects
 Modification Operations : append(), insert(), delete(), reverse()
 Object Creation         : Changes existing object without creating a new one
 Efficiency in Loops     : Less efficient in loops
@@ -66,10 +68,115 @@ StringBuilder
 Interview One-Liner
 =========================================================
 
-StringBuffer:
-"Use StringBuffer when multiple threads access the same object because it is synchronized and thread-safe."
-
 StringBuilder:
 "Use StringBuilder when only one thread accesses the object because it is faster and not synchronized."
 
+StringBuffer:
+"Use StringBuffer when multiple threads access the same object because it is synchronized and thread-safe."
+
+
+String :-
+
+
 =========================================================
+
+
+
+
+
+java StringBuilder Methods List
+
+Constructors:-
+
+StringBuilder()
+StringBuilder(int capacity)
+StringBuilder(String str)
+StringBuilder(CharSequence seq)
+
+
+
+
+
+
+
+
+
+Commonly Used Methods:-
+
+
+append()
+insert()
+replace()
+delete()
+deleteCharAt()
+
+reverse()
+charAt()
+setCharAt()
+length()
+capacity()
+ensureCapacity()
+trimToSize()
+substring(int start)
+
+substring(int start, int end)
+indexOf(String str)
+indexOf(String str, int fromIndex)
+lastIndexOf(String str)
+lastIndexOf(String str, int fromIndex)
+setLength(int newLength)
+toString()
+appendCodePoint(int codePoint)
+codePointAt(int index)
+codePointBefore(int index)
+codePointCount(int beginIndex, int endIndex)
+offsetByCodePoints(int index, int codePointOffset)
+getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin)
+compareTo(StringBuilder another) (Java 11+)
+
+
+
+
+Methods Inherited from Object:-
+
+
+equals()
+hashCode()
+getClass()
+notify()
+notifyAll()
+wait()
+wait(long timeout)
+wait(long timeout, int nanos)
+
+
+Most Important for Interviews ⭐⭐⭐⭐⭐
+
+append()
+insert()
+replace()
+delete()
+deleteCharAt()
+reverse()
+charAt()
+setCharAt()
+length()
+capacity()
+ensureCapacity()
+trimToSize()
+substring()
+indexOf()
+lastIndexOf()
+setLength()
+toString()
+
+
+
+
+
+
+
+
+
+
+
