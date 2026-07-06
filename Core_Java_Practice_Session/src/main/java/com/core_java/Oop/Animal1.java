@@ -1,3 +1,5 @@
+
+
 package com.core_java.Oop;
 
  interface Animal1 {

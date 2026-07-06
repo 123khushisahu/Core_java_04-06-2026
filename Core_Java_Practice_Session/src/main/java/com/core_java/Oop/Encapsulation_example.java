@@ -93,15 +93,6 @@ public class Encapsulation_example {
 		 * 
 		 */
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 

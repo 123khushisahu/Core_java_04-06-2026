@@ -93,14 +93,6 @@ StringBuilder(int capacity)
 StringBuilder(String str)
 StringBuilder(CharSequence seq)
 
-
-
-
-
-
-
-
-
 Commonly Used Methods:-
 
 
@@ -126,6 +118,7 @@ lastIndexOf(String str)
 lastIndexOf(String str, int fromIndex)
 setLength(int newLength)
 toString()
+
 appendCodePoint(int codePoint)
 codePointAt(int index)
 codePointBefore(int index)

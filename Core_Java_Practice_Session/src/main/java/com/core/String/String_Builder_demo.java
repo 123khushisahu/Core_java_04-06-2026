@@ -2,7 +2,20 @@ package com.core.String;
 
 public class String_Builder_demo {
 
+	
 	public static void main(String[] args) {
+		  String username123="vijay";
+
+	//	String username123="raju";
+		System.out.println(username123);
+		
+		int x=10;
+		int y=20;
+		
+		x=x+y;
+		
+		System.out.println(x);
+		
 		
 		
 		StringBuilder sb=new StringBuilder("vijay bahadur");
@@ -97,7 +110,7 @@ public class String_Builder_demo {
         
         
         
-        
+        System.out.println("==========================");
         
        // Empty StringBuilder की default capacity = 16 hoti h
         
@@ -118,7 +131,7 @@ public class String_Builder_demo {
         
         
         
-       // substring(int start) jo index diya vahi se start hoga thats bit
+       // substring(int start) jo index diya vahi se start hoga thats it
         
         StringBuilder stringbuilder=new StringBuilder(" my name is vijay");
         
@@ -127,7 +140,50 @@ public class String_Builder_demo {
         
         
 		
+      //  substring(int start, int end)
+       // substring(int start, int end) start index se end index-1 tak characters return karta hai.
 
+        	//	✅ Start index → Included
+
+        	//	❌ End index → Excluded
+        
+        StringBuilder sb10 = new StringBuilder("vijay  kumar gupta madhorampur gopiganj");
+        
+        System.out.println(sb10.substring(0, 10));
+        
+        System.out.println(sb10.indexOf("gupta"));
+        
+        
+
+       // System.out.println(sb10.substring(0, 10));
+       // System.out.println(sb10);
+        
+        
+        
+        
+        System.out.println("------------------------------------------------------");
+        
+       
+        
+        
+        
+        StringBuilder sb11=new StringBuilder();
+        
+        sb11.append("Mumbai and Dubai");
+        sb11.append(" Tier one city");
+      
+        String   strobj=sb11.toString();
+      
+       
+        
+        
+        System.out.println(strobj);
+        
+        
+        System.out.println(sb11);
+        
+        
+        
 		
 		
 		
