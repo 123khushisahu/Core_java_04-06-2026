@@ -43,6 +43,7 @@ HashMap       LinkedHashMap     TreeMap      Hashtable   ConcurrentHashMap
 		| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
 		
 		      Done/ Practice in class(10/07/2026)
+		
 		| `put(K key, V value)`                                                                      | Adds or updates a key-value pair.                                  |
 		| `putAll(Map<? extends K, ? extends V> m)`  
 		| `keySet()`                                                                                 | Returns all keys as a `Set`.                                                                                                        | Copies all entries from another map.                               |
@@ -204,6 +205,9 @@ HashMap       LinkedHashMap     TreeMap      Hashtable   ConcurrentHashMap
 		
 		//merge,forEach
 			}
+	
+	
+	
 		
 		
 	
