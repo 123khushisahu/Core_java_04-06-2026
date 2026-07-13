@@ -12,6 +12,9 @@ public class Practice1 {
 		
 		StringBuffer bfr1=new StringBuffer("ram");
 		System.out.println(bfr1.charAt(1));
+		
+		
+		System.out.println("=========");
 		System.out.println(bfr1.compareTo(bfr));
 		StringBuilder bfr2=new StringBuilder("ram is going to school");
 

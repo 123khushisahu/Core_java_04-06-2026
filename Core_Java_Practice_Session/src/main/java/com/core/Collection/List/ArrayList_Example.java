@@ -72,7 +72,7 @@ public class ArrayList_Example {
 		//str.remove("SOHAN")
 		System.out.println(str);
 		System.out.println(str.size());
-		System.out.println("Empty or not: ");
+		System.out.println("Empty or not: ");//empty""//blank" "//null means kw
 		ArrayList<String> str2=new ArrayList<>();
 		
 		if(!str2.isEmpty()) {
