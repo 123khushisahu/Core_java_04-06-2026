@@ -95,6 +95,14 @@ String results=	strobjlist.stream()
         StringBuilder sb2=new StringBuilder(str2);
         System.out.println(sb2.chars().mapToObj(c->(char)c).collect(Collectors.groupingBy(c->c,LinkedHashMap::new,Collectors.counting())));
 	
+        
+        //7.remove duplicate character from String
+        String st3="pooja";
+        StringBuilder sb3=new StringBuilder(st3);
+        if(sb3.repeat()) {
+        	
+        }
+        
 	
 	
 	

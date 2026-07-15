@@ -74,7 +74,7 @@ public class Encapsulation_example {
 		
 		
 		/*
-		 * Definion Binding of data methods corresponing methods in single unit known as
+		 * Definition Binding of data methods corresponing methods in single unit known as
 		 * encapsulation.
 		 * 
 		 * example : Getter and setters methods
