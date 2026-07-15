@@ -1,0 +1,80 @@
+ java 8 features.
+  
+ 	1. Lambda_Expression
+	2. default method
+	3.  Stream API
+	4.  static method
+	5. date and time api
+	6. optional class 
+	7. method ref
+ 	8.Functional Interface
+ 	
+ 	
+ 	
+ 	Java 8 Features
+
+1. Lambda Expressions
+Allows writing anonymous functions with a shorter syntax.
+It improves readability and supports functional programming in Java.
+
+
+2. Functional Interface
+An interface that contains only one abstract method.
+It can be implemented using lambda expressions.
+
+
+3. Stream API
+Provides a way to process collections of data in a functional style.
+It supports operations like filtering, mapping, and sorting.
+
+
+
+
+4. Default Methods in Interfaces
+Allows interfaces to have method implementations.
+It helps add new methods without breaking existing implementations.
+
+
+5. Static Methods in Interfaces
+Allows static methods to be defined inside interfaces.
+These methods are accessed using the interface name.
+
+6. Method References
+Provides a shorter way to call existing methods using :: operator.
+It improves code readability when using lambda expressions.
+
+
+7. Optional Class
+A container object used to handle null values safely.
+It helps avoid NullPointerException.
+
+
+8. Date and Time API
+Introduced new classes for handling date and time.
+It provides better alternatives to the old Date and Calendar classes.
+
+
+9. Nashorn JavaScript Engine
+Allows Java applications to execute JavaScript code.
+It provides better performance than the previous engine.
+
+10. Collectors API
+Provides methods to collect Stream results into collections.
+It supports operations like grouping and joining data.
+
+
+11. CompletableFuture
+Supports asynchronous programming in Java.
+It helps execute tasks in the background and handle results efficiently.
+
+
+12. Base64 Encoding and Decoding
+Provides built-in support for Base64 encoding and decoding.
+It is available through the java.util.Base64 class.
+  
+  
+  
+  
+  
+  
+  
