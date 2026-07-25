@@ -1,13 +1,15 @@
  java 8 features.
   
- 	1. Lambda_Expression
-	2. default method
-	3.  Stream API
-	4.  static method
-	5. date and time api
-	6. optional class 
-	7. method ref
- 	8.Functional Interface
+ 	1.  Lambda_Expression
+ 	2.  Functional Interface
+ 	3.  default method
+	4.  Stream API
+	5.  static method
+	6. date and time api
+	7. optional class 
+	8. method ref
+	
+ 	
  	
  	
  	
