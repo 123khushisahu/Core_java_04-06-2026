@@ -22,7 +22,7 @@ public class Reverse_String {
 	  s1.length();
 	for(int i=s1.length()-1; i>=0;i--) {
 		
-		System.out.println(s1.charAt(i));
+		System.out.print(s1.charAt(i));
 	}
 
 	//StringBuffer obj=new StringBuffer();
@@ -38,8 +38,8 @@ public class Reverse_String {
 	StringBuffer object2=new StringBuffer(s2);
 	object2.reverse();
 	System.out.println(object2);
-	object2.insert(0, "sahu");
-	object2.reverse();
+	object2.insert(1, "sahu");
+	//object2.reverse();
 	System.out.println(object2);
 	
 	s2.length();
