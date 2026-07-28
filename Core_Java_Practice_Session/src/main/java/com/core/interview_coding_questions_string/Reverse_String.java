@@ -38,8 +38,11 @@ public class Reverse_String {
 	StringBuffer object2=new StringBuffer(s2);
 	object2.reverse();
 	System.out.println(object2);
+	
 	object2.insert(1, "sahu");
-	//object2.reverse();
+	System.out.println(object2);
+ 
+	object2.reverse();//complete ko reverse kar rahe hai
 	System.out.println(object2);
 	
 	s2.length();
