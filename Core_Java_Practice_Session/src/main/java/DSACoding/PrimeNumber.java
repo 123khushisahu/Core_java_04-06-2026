@@ -6,8 +6,10 @@ Print all prime numbers from 1 to N.
 Print the Fibonacci series.
 Find the factorial of a number.
 Reverse a number.
-Check if a number is a palindrome.
-Check if a number is an Armstrong number.
+Check if a number is a palindrome.-done
+
+
+
 Check if a number is a perfect number.
 Find the GCD of two numbers.
 Find the LCM of two numbers.
