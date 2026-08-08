@@ -12,7 +12,6 @@ public class FunctionalClass_demo implements Demo_Inteface  {
 	}
 	
 	
-	@Override
 	public void DBConnection() {
 		
 		 try {

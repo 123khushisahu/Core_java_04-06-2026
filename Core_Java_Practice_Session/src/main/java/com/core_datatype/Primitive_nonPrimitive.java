@@ -8,10 +8,10 @@ public class Primitive_nonPrimitive {
 ये predefined होते हैं और actual value store करते हैं।
 
 Data Type	Size	Default Value	Example
-byte		1 byte	0				byte a = 10;
+byte			1 byte	0				byte a = 10;
 short		2 bytes	0				short b = 200;
 int			4 bytes	0				int age = 25;
-long		8 bytes	0L				long mobile = 9876543210L;
+long			8 bytes	0L				long mobile = 9876543210L;
 float		4 bytes	0.0f			float price = 99.5f;
 double		8 bytes	0.0d			double pi = 3.14159;
 char		2 bytes	'\u0000'		char grade = 'A';

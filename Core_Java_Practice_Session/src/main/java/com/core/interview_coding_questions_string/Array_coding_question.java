@@ -56,10 +56,10 @@ public class Array_coding_question {
 		System.out.println(list3);
 		
 		
+		System.out.println("==========MyPra==============");
 		
-		
-		
-		
+		Integer[] arr3= {22,33,44,66,558,88,77,77};
+		Collections.reverseOrder(arr3);
 		
 		
 
