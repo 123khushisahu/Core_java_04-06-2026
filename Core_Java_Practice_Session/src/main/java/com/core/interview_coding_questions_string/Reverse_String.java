@@ -20,7 +20,7 @@ public class Reverse_String {
 
 	//length 
 	  s1.length();
-	for(int i=s1.length()-1; i>=0;i--) {
+	for(int i=s1.length()-1; i>=0;  i--) {
 		
 		System.out.print(s1.charAt(i));
 	}
@@ -47,7 +47,7 @@ public class Reverse_String {
 	
 	s2.length();
 	for(int i=s2.length()-1;i>=0;i--) {
-		System.out.print(s2.charAt(i));
+		System.out.println(s2.charAt(i));
 		
 		
 	}
