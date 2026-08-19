@@ -6,22 +6,22 @@ class Example {
         p = 50;
     }
 
-    void m2(Example e) {
-        e = new Example();
+    void m2(AdditionReturnWithThrow e) {
+        e = new AdditionReturnWithThrow();
     }
 
-    void m3(Example e) {
+    void m3(AdditionReturnWithThrow e) {
         e.x = 15;
     }
 
-    void m4(Example e) {
-        e = new Example();
+    void m4(AdditionReturnWithThrow e) {
+        e = new AdditionReturnWithThrow();
         e.x = 16;
     }
 
-    void m5(Example e) {
+    void m5(AdditionReturnWithThrow e) {
         e.x = 19;
-        e = new Example();
+        e = new AdditionReturnWithThrow();
         e.x = 20;
     }
 }
@@ -29,14 +29,14 @@ public class Method1 {
 
     public static void main(String[] args) {
 
-        Example e1 = new Example();
+        AdditionReturnWithThrow e1 = new AdditionReturnWithThrow();
 
         int q = 18;
         System.out.println("b m1 q: " + q);
         e1.m1(q);
         System.out.println("a m1 q: " + q);
 
-        Example e2 = new Example();
+        AdditionReturnWithThrow e2 = new AdditionReturnWithThrow();
         System.out.println("b m2 e2.x: " + e2.x);
         e1.m2(e2);
         System.out.println("a m2 e2.x: " + e2.x);
